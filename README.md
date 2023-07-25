@@ -26,7 +26,7 @@ Logs are saved in CSV format in the `output` subdirectory of the installation fo
 
 ## Uninstalling
 
-`conda remove --name sensordashboard --all`
+`conda remove -n sensordashboard --all`
 
 Should do.
 
