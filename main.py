@@ -111,13 +111,13 @@ def write_file(t, voltage, rh):
 
 @click.command()
 @click.option(
-    "--dev", required=True, help="serial device name e.g., COM3 or dev//ttyUSB0"
+    "--dev", required=True, help="serial device name e.g., COM3 or dev//ttyUSB0."
 )
 @click.option(
     "--baud",
     default=115200,
     type=int,
-    help="serial device name (e.g., COM3 or dev//ttyUSB0",
+    help="serial communication baudrate.",
 )
 def main(dev, baud):
     filename = datetime.now().strftime("%Y%m%d_%H%M%S") + "_log.csv"
