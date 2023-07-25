@@ -111,7 +111,7 @@ def write_file(t, voltage, rh):
 
 @click.command()
 @click.option(
-    "--dev", required=True, help="serial device name (e.g., COM3 or dev//ttyUSB0"
+    "--dev", required=True, help="serial device name e.g., COM3 or dev//ttyUSB0"
 )
 @click.option(
     "--baud",
