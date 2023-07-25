@@ -7,11 +7,10 @@ To create the environment:
 
 `conda env create -f env.yml`
 
-Then activate it with:
+## Running
+Activate the environment with:
 
 `conda activate sensordashboard`
-
-## Running
 
 You are expected to specify the serial device address.
 Find your device name (say `COM3`), move to the installation folder and launch with:
