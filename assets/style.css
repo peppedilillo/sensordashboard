@@ -1,0 +1,35 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 42em;
+    background-color: #111111;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: white;
+    font-size: 14pt;
+    font-family: Arial;
+    line-height: 200%;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: white;
+}
+
+#byline {
+    margin-top: 1em;
+    text-align: right;
+    font-style: italic;
+}
+
+#container {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    font-size: 18pt;
+    justify-content: space-between;
+}
+
+#container-label {
+    font-style: italic;
+}
