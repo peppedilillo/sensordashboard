@@ -59,7 +59,7 @@ def update_metrics(signal):
     ]
 
 
-MAXDISPLAY = 1800  # half a hour
+MAXDISPLAY = 1800  # half an hour
 
 
 @callback(Output("live-update-graph", "figure"), Input("signal", "data"))
@@ -86,7 +86,7 @@ def update_graph_live(signal):
     return fig
 
 
-def get_data(cmd=b"!R\n", response_delay=0.01):
+def get_data(cmd=b"!R\n"):
     def parse(r):
         try:
             t, voltage = r.split(", ")
